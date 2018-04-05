@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ChechModulusComponent } from './chech-modulus/chech-modulus.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChechModulusComponent
   ],
   imports: [
     BrowserModule
