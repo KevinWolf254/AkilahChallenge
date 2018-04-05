@@ -13,7 +13,8 @@ export class ChechModulusComponent implements OnInit {
 
   ngOnInit() {
   }
-  print(){
+  /**Prints on console */
+  print(){    
     let i: number;
     let numStart: number = -50;
     let numEnd: number = 50;
